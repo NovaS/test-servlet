@@ -1,6 +1,9 @@
-*.class
+# Eclipse project files
+.classpath
+.project
+.settings
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Maven output
+target
+*.releaseBackup
+release.properties
